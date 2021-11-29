@@ -9,7 +9,7 @@ public class prime {
                     break;
 
             }
-            if (j >= i)
+            if (j == i)
                 System.out.println(i);
         }
 
