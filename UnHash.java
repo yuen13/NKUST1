@@ -2,7 +2,6 @@ class UnHash{
 
     public static void main (String[] args) {
         System.out.println(revHash(6933552791181934L));
-        System.out.println(hash("justdoit")); //574318821802
     }
 
     public static String letters = "cdefghijlmnoqstuvxz";
@@ -20,13 +19,5 @@ class UnHash{
             newResult += result.charAt(i-1);
         }
         return newResult;
-    }
-
-    public static long hash(String s){
-        long h = 7;
-        for (int i = 0; i < s.length(); i++){
-            h = h * 23 + letters.indexOf(s.charAt(i));
-        }
-        return h;
     }
 }
