@@ -3,5 +3,5 @@ public class BMI {
         int a = 170;
         int b = 54;
         System.out.println(b/((a/100)^2));
-    }
+    } i am gay 
 }
