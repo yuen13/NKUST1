@@ -158,6 +158,45 @@ public class Constitution {
                     }
                     break;
                 }
+                for (int j = 10; j < 11; j++) {
+                    System.out.println("================================");
+                    System.out.printf("<<<<<<<" + "%s ", comp_main.get(j).text() + ">>>>>>>");
+                    System.out.println();
+                    for (int i = 117; i < 122; i++) {
+                        System.out.printf("%s ", cont.get(i).text());
+                        System.out.println();
+                    }
+                    break;
+                }
+                for (int j = 11; j < 13; j++) {
+                    System.out.println("================================");
+                    System.out.printf("<<<<<<<" + "%s ", comp_main.get(j).text() + ">>>>>>>");
+                    System.out.println();
+                    for (int i = 122; i < 131; i++) {
+                        System.out.printf("%s ", cont.get(i).text());
+                        System.out.println();
+                    }
+                    break;
+                }
+                for (int j = 13; j < 14; j++) {
+                    System.out.println("================================");
+                    System.out.printf("<<<<<<<" + "%s ", comp_main.get(j).text() + ">>>>>>>");
+                    System.out.println();
+                    for (int i = 131; i < 139; i++) {
+                        System.out.printf("%s ", cont.get(i).text());
+                        System.out.println();
+                    }
+                    break;
+                }
+                for (int j = 14; j < 15; j++) {
+                    System.out.println("================================");
+                    System.out.printf("<<<<<<<" + "%s ", comp_main.get(j).text() + ">>>>>>>");
+                    System.out.println();
+                    for (int i = 139; i < 147; i++) {
+                        System.out.printf("%s ", cont.get(i).text());
+                        System.out.println();
+                    }
+                    break;
             }
         } catch(IOException e){
             e.printStackTrace();
