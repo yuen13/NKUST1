@@ -97,6 +97,66 @@ public class Constitution {
                         System.out.println();
                     }
                     break;
+                }    
+                for (int j = 4; j < 5; j++) {
+                    System.out.println("================================");
+                    System.out.printf("<<<<<<<" + "%s ", comp_main.get(j).text() + ">>>>>>>");
+                    System.out.println();
+                    for (int i = 53; i < 62; i++) {
+                        System.out.printf("%s ", cont.get(i).text());
+                        System.out.println();
+                    }
+                    break;
+                }
+                for (int j = 5; j < 6; j++) {
+                    System.out.println("================================");
+                    System.out.printf("<<<<<<<" + "%s ", comp_main.get(j).text() + ">>>>>>>");
+                    System.out.println();
+                    for (int i = 62; i < 71; i++) {
+                        System.out.printf("%s ", cont.get(i).text());
+                        System.out.println();
+                    }
+                    break;
+                }
+                for (int j = 6; j < 7; j++) {
+                    System.out.println("================================");
+                    System.out.printf("<<<<<<<" + "%s ", comp_main.get(j).text() + ">>>>>>>");
+                    System.out.println();
+                    for (int i = 71; i < 86; i++) {
+                        System.out.printf("%s ", cont.get(i).text());
+                        System.out.println();
+                    }
+                    break;
+                }
+                for (int j = 7; j < 8; j++) {
+                    System.out.println("================================");
+                    System.out.printf("<<<<<<<" + "%s ", comp_main.get(j).text() + ">>>>>>>");
+                    System.out.println();
+                    for (int i = 86; i < 92; i++) {
+                        System.out.printf("%s ", cont.get(i).text());
+                        System.out.println();
+                    }
+                    break;
+                }
+                for (int j = 8; j < 9; j++) {
+                    System.out.println("================================");
+                    System.out.printf("<<<<<<<" + "%s ", comp_main.get(j).text() + ">>>>>>>");
+                    System.out.println();
+                    for (int i = 92; i < 100; i++) {
+                        System.out.printf("%s ", cont.get(i).text());
+                        System.out.println();
+                    }
+                    break;
+                }
+                for (int j = 9; j < 10; j++) {
+                    System.out.println("================================");
+                    System.out.printf("<<<<<<<" + "%s ", comp_main.get(j).text() + ">>>>>>>");
+                    System.out.println();
+                    for (int i = 100; i < 117; i++) {
+                        System.out.printf("%s ", cont.get(i).text());
+                        System.out.println();
+                    }
+                    break;
                 }
             }
         } catch(IOException e){
