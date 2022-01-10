@@ -28,7 +28,6 @@ public class Constitution {
             }
             System.out.println(index_2.title());
             Elements headline2 = index_2.select("#plRightList");
-            //System.out.println(headline2.text());
             Element table = headline2.select("table").last();
             Element tbody = table.select("tbody").first();
             Elements td = tbody.select("td a");
