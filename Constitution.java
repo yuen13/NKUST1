@@ -74,3 +74,7 @@ public class Constitution {
         }
     }
 }
+//這個一定都是bug
+//學分與我無緣了
+//|qwq|
+//
