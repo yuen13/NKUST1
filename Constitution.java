@@ -68,6 +68,7 @@ public class Constitution {
                     }
                     break;
                 }
+                
                 for (int j = 1; j < 2; j++) {
                     System.out.println("================================");
                     System.out.printf("<<<<<<<" + "%s ", comp_main.get(j).text() + ">>>>>>>");
