@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <div class="d-flex justify-content-center">
+        <title></title>
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="nav navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">主頁</a>
+            </div>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="台灣麻將.html">台灣麻將</a>
+            </div>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="日本麻將-四人.html">日本麻將-四人</a>
+            </div>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="日本麻將-三人.html">日本麻將-三人</a>
+            </div>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="相關影片.html">相關影片</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h2></h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- 點點 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+
+            </ol>
+            <script src="https://code.jquery.com/jquery.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+            <div class="jumbotron text-center">
+                <h1>日本麻將-三人</h1>
+                <p>再也不怕三缺一，享受做大牌樂趣</p>
+            </div>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/三麻.jpg" style="width:100%">
+                </div>
+                <div class="item ">
+                    <img src="img/三麻1.jpg" style="width:100%">
+                </div>
+                <div class="item">
+                    <img src="img/三麻2.jpg" style="width:100%">
+                </div>
+            </div>
+            <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a href="#myCarousel" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="d-flex justify-content-center">
+                    <h3><a href="#a1">流程</a></h3>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="d-flex justify-content-center">
+                    <h3><a href="#b">規則</a></h3>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="d-flex justify-content-center">
+                    <h3><a href="#c">飜數(役種)</a></h3>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="d-flex justify-content-center">
+                    <h3><a href="#d">特殊玩法</a></h3>
+                </div>
+            </div>
+        </div><br>
+        <div style="text-align:center;">
+            <h3>規則幾乎四人麻將相同，不同之處將會以<font color="red">紅字</font>標示</h3>
+        </div>
+    </div><br><br>
+    <div style="text-align:center;" id="a1">
+        <h1>流程</h1>
+    </div>
+    <div class="container">
+        <table class="table table-active">
+            <font color="red"></font>
+            <thead>
+                <tr>
+                    <th scope="col">抓位</th>
+                    <td scope="col">
+                        找出<font color="red">東南西</font>字牌各一張蓋著並打散，<font color="red">三家</font>隨機抽牌，抽到"東"者自己決定要坐在哪裡，其餘同依逆時針為<font color="red">"南"、"西"</font>。
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">疊牌</th>
+                    <td>
+                        每位玩家必須疊兩層，一層<font color="red">18</font>張，疊好後往前推，<font color="red">三家擺好後成ㄇ字形</font>。<br>
+                        (兩張疊一起就叫1墩，總共18墩。)
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">抓牌</th>
+                    <td>
+                        由東風位者擲骰決定擲骰人，擲骰人再擲一次骰決定誰來起家，起家也會是該局的親家，也就是東家。<br>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">點數</th>
+                    <td>
+                        開局每位玩家各得<font color="red">35000點</font>，用作牌局勝負的籌碼。<br>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div><br><br><br>
+    <div style="text-align:center;" id="b">
+        <h1>規則</h1>
+    </div>
+    <div class="container">
+        <table class="table table-active">
+            <thead>
+                <tr>
+                    <th scope="col"><font color="red">牌張</font></th>
+                    <td scope="col"><font color="red">三麻不使用2~8萬，所以總張數為108張。</font></td>
+                </tr>
+                <tr>
+                    <th scope="col">捨牌</th>
+                    <td scope="col">捨牌前必須先摸牌，一開始親家不必再摸，親家捨牌後，即輪到下家摸牌。</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">吃牌</th>
+                    <th><font color="red">三麻不可吃牌</font>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="row">碰牌</th>
+                    <td>任何一家所丟出來的牌可與自己手中的牌組成一組3張刻子，則可碰牌，此時三張牌必須亮出來靠在牌桌右下方，並把碰的牌<b>橫躺</b>在三張牌與捨牌者對應的位置。碰牌優先於吃牌。<br>
+                        例:假如是碰下家，就必須將最右邊的牌橫躺；對家則中間牌橫躺
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">槓牌</th>
+                    <td>任何一家所丟出來的牌，或是自己手中的牌，可以組成一組4張刻子，即可槓牌，再從牌墩的尾端抓一張牌。槓牌優先於吃牌。槓牌又分為明槓和暗槓，明槓又分為大明槓和加槓。<br>
+                        例:8888、中中中中
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">明槓</th>
+                    <td>大明槓：任何一家所丟出來的牌，若可與自己手中的牌組成一組4張刻子，即可槓牌，此時四張牌必須亮出來，並把碰的牌<b>橫躺</b>在四張牌與捨牌者對應的位置。槓牌優先於吃牌
+                        註：大明槓可以嶺上自摸。<br>
+                        加槓：若先前已經有碰牌，此時自己摸到相同的一張牌，即可加槓。
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">暗槓</th>
+                    <td>自己手中的牌，可以組成一組4張刻子，即可暗槓，中間兩張牌必須攤開，最兩邊蓋著，並把四張牌靠在牌桌右下方。
+                </tr>
+                <tr>
+                    <th scope="row">榮(榮和)</th>
+                    <td>任何一家捨出的牌，若與手中的牌包含門前，可以搭成四個刻子或順子以及一個眼睛(2張一樣的牌)並擁有役種，即為榮，就是胡牌的意思。
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">自摸</th>
+                    <td>自己摸到的牌，若與手中的牌包含門前，可以搭成四個刻子或順子以及一個眼睛(2張一樣的牌)並擁有役種，即為自摸，點數由<font color="red">兩家</font>平均支付。
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">懸賞指示牌</th>
+                    <td>懸賞指示牌用來指示寶牌。在牌山的<font color="red">倒數第五墩</font>翻開最上面那張牌，若有人槓牌則加翻<font color="red">第六墩</font>，以此類推。
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">赤牌</th>
+                    <td>等同寶牌，每副麻將會有3張赤牌，分別為5萬、5筒、5條各一張。
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row"><font color="red">拔北</font></th>
+                    <td><font color="red">因只有三位玩家，所以北風可以進行拔北，拔北後要從牌山尾端摸一張牌。每拔一張北就算做一張寶牌，動作與台灣麻將補花一樣，但北風也可以當作手牌使用。
+                    </font></td>
+                </tr>
+                <tr>
+                    <th scope="row">振聽</th>
+                    <td>自己所聽的牌自己曾經捨出過，則不可榮和他人，僅準自摸。解除方法為改變聽牌牌型。
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">同巡振聽</th>
+                    <td>同一巡內若他人捨出槍牌，因為無役而無法榮和，則進入同巡振聽，即便別人捨出另一張槍牌，亦無法榮和，
+                        只能靠自摸，或是打出一張非胡的牌，就可解除振聽，此理同台灣牌的過水。
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">立直振聽</th>
+                    <td>立直後可以榮和卻沒有榮和，則該局進入立直振聽，到牌局結束只能靠自摸才可以和。
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">四槓散了</th>
+                    <td>指場上兩家以上累計4個槓子，強制和局。
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">九種九牌</th>
+                    <td>開局第一巡內無人吃碰槓，起手牌有九種么九牌，玩家可宣布和局。
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div><br><br><br>
+    <div style="text-align:center;" id="c">
+        <h1>飜ㄈㄢ數(役種)</h1>
+    </div>
+    <div class="container">
+        <table class="table table-active">
+            <thead>
+                <tr>
+                    <th scope="col">名稱</th>
+                    <th scope="col">說明</th>
+                    <th scope="col">飜數</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">段么九</td>
+                    <td>手牌組合沒有1、9、字牌</td>
+                    <td>1飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">立直</td>
+                    <td>門前清限定。聽牌狀態下，捨牌前宣告立直，並拿出一支1000點棒放在桌中，立直後不能吃碰槓，等同台灣麻將的眼牌</td>
+                    <td>1飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">一發</td>
+                    <td>宣告立直後一巡內無人吃碰槓而和牌</td>
+                    <td>1飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">一盃口</td>
+                    <td>門前清限定。手牌擁有兩組一模一樣花色的順子<br>
+                        例:112233萬、556677條</td>
+                    <td>1飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">場風刻</td>
+                    <td>擁有<font color="red">東、南、西</font>任一組刻子，並符合該場風。<br>
+                        例:該局為東風場，則有東風刻即有1飜</td>
+                    <td>1飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">自風刻</td>
+                    <td>擁有<font color="red">東、南、西</font>任一組刻子，並符合自門風。<br>
+                        例:該局為東家，則有東風刻即有1飜</td>
+                    <td>1飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">三元刻</td>
+                    <td>擁有白、發、中任一組刻子。</td>
+                    <td>1飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">門前清自摸和</td>
+                    <td>門前清限定。自己摸到榮和的牌。</td>
+                    <td>1飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">槍槓</td>
+                    <td>榮和其他人加槓的牌</td>
+                    <td>1飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">嶺上開花</td>
+                    <td>槓牌後摸的牌正好自摸，可額外加計1飜。</td>
+                    <td>1飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">海底撈月</td>
+                    <td>該局最後一張牌正好自摸。</td>
+                    <td>1飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">河底撈魚</td>
+                    <td>榮和該局最後一張別人打出的牌。</td>
+                    <td>1飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">平和</td>
+                    <td>門前清限定。並由四組順子和非役牌作眼，且胡牌形式與台灣麻將一樣不得獨聽。（最後一副順子必須為雙面聽）</td>
+                    <td>1飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">*寶牌(不是役)</td>
+                    <td>懸賞指示牌的下一張牌、赤牌、<font color="red">拔北</font>，通稱為寶牌，只要有一張寶牌就有1飜，但不能當作役。<br>
+                        例:懸賞指示牌為6萬，寶牌為7萬；若翻出9萬，則寶牌為1萬。東南西北自己循環，白發中自己循環</td>
+                    <td>1飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">三色同順</td>
+                    <td><font color="red">無</font></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td scope="row">三色同刻</td>
+                    <td>同時擁有三種花色的同數字順子<br>
+                        例:111萬111筒111條</td>
+                    <td>2飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">三暗刻</td>
+                    <td>手牌中有三組暗刻，不可為碰或明槓。</td>
+                    <td>2飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">對對胡</td>
+                    <td>四組刻加一對眼。</td>
+                    <td>2飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">三槓子</td>
+                    <td>擁有三個槓子。</td>
+                    <td>2飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">一氣通貫</td>
+                    <td>副露減1飜。同一種花色中，組出123、456、789的三組順子。</td>
+                    <td>2飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">七對子</td>
+                    <td>門前清限定。手牌擁有7個對子</td>
+                    <td>2飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">小三元</td>
+                    <td>胡牌時有三元牌的兩組刻子及一組眼睛 。</td>
+                    <td>2飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">混老頭</td>
+                    <td>手牌只有么九牌及字牌。必定對對胡或七對子，所以至少4飜</td>
+                    <td>2飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">混全帶么九</td>
+                    <td>副露減1飜。手牌的順、刻都包含至少一張么九牌及字牌。</td>
+                    <td>3飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">雙立直</td>
+                    <td>第一巡無人吃碰槓及宣告立直。</td>
+                    <td>2飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">混一色</td>
+                    <td>副露減1飜。手牌皆由字牌及同一種花色所組成。</td>
+                    <td>3飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">純全帶么九</td>
+                    <td>副露減1飜。手牌的順、刻都包含至少一張么九牌，且無字牌。</td>
+                    <td>3飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">二盃口</td>
+                    <td>門前清限定。兩組一盃口，不計七對子。<br>
+                        例:445566萬112233筒</td>
+                    <td>3飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">清一色</td>
+                    <td>副露減1飜。手牌全數為字牌以外的同一種花色。</td>
+                    <td>6飜</td>
+                </tr>
+                <tr>
+                    <td scope="row">綠一色</td>
+                    <td>手牌全由2、3、4、6、8條或發所組成，不計清(混)一色</td>
+                    <td>役滿</td>
+                </tr>
+                <tr>
+                    <td scope="row">四暗刻</td>
+                    <td>門前清限定。手牌中有四組暗刻。</td>
+                    <td>役滿</td>
+                </tr>
+                <tr>
+                    <td scope="row">大三元</td>
+                    <td>胡牌時有三組三元刻。</td>
+                    <td>役滿</td>
+                </tr>
+                <tr>
+                    <td scope="row">小四喜</td>
+                    <td>胡牌時有風牌的三組刻子及一組眼睛。</td>
+                    <td>役滿</td>
+                </tr>
+                <tr>
+                    <td scope="row">字一色</td>
+                    <td>手牌全數為字牌的刻子組成，不計對對胡。</td>
+                    <td>役滿</td>
+                </tr>
+                <tr>
+                    <td scope="row">清老頭</td>
+                    <td>手牌全數為1、9，不計對對胡。</td>
+                    <td>役滿</td>
+                </tr>
+                <tr>
+                    <td scope="row">九蓮寶燈</td>
+                    <td>門前清限定。手牌為某種花色的1112345678999，再加上任意一張1~9。<br>
+                        例:1113456778999筒，聽2578，胡到2筒即是九蓮寶燈</td>
+                    <td>役滿</td>
+                </tr>
+                <tr>
+                    <td scope="row">國士無雙</td>
+                    <td>門前清限定。所有么九牌各一隻，再加上任意一張么九牌。國士無雙可以搶暗槓。<br>
+                        例:19萬19條9筒 東南南西北白發中，聽1筒</td>
+                    <td>役滿</td>
+                </tr>
+                <tr>
+                    <td scope="row">四槓子</td>
+                    <td>擁有4個槓子</td>
+                    <td>役滿</td>
+                </tr>
+                <tr>
+                    <td scope="row">地和</td>
+                    <td>開局第一巡內無人吃、碰、槓，閒家首次摸牌就自摸。</td>
+                    <td>役滿</td>
+                </tr>
+                <tr>
+                    <td scope="row">天和</td>
+                    <td>莊家開局即自摸，不可槓牌。</td>
+                    <td>役滿</td>
+                </tr>
+                <tr>
+                    <td scope="row">累計役滿</td>
+                    <td>牌型累積13飜以上，視為役滿。</td>
+                    <td>役滿</td>
+                </tr>
+                <tr>
+                    <td scope="row">大四喜</td>
+                    <td>胡牌時有四組風刻。</td>
+                    <td>兩倍役滿</td>
+                </tr>
+                <tr>
+                    <td scope="row">四暗刻單騎</td>
+                    <td>門前清限定。聽牌時手牌為四組暗刻加一張單騎。</td>
+                    <td>兩倍役滿</td>
+                </tr>
+                <tr>
+                    <td scope="row">純正九蓮寶燈</td>
+                    <td>門前清限定。聽牌時手牌為某種花色的1112345678999，此時聽手上所有的牌</td>
+                    <td>兩倍役滿</td>
+                </tr>
+                <tr>
+                    <td scope="row">國士無雙十三面</td>
+                    <td>門前清限定。聽牌時手牌為所有么九牌各一隻，此時聽手上任何一張牌。</td>
+                    <td>兩倍役滿</td>
+                </tr>
+            </tbody>
+        </table>
+    </div><br><br><br>
+    <div style="text-align:center;" id="d">
+        <h1>特殊玩法</h1>
+    </div>
+    <div class="container">
+        <table class="table table-active">
+            <thead>
+                <tr>
+                    <th scope="col">名稱</th>
+                    <th scope="col">說明</th>
+                    <th scope="col">飜數</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">流局滿貫</td>
+                    <td>自己捨出的牌沒有被吃碰槓，並且全是么九牌。<font color="red">兩家</font>平均支付點數。
+                    </td>
+                    <td>倍滿</td>
+                </tr>
+                <tr>
+                    <td scope="row">四家立直</td>
+                    <td><font color="red">無</font>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>玩法、規則四家玩家品好即可，無須過度執著表定規則</p>
+    </div><br><br><br>
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>Design By 潘昱仁</small>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
